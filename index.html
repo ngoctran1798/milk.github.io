@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/webslidemenu.css" rel="stylesheet">
+    <link href="css/webslidemenu-effect.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/magiczoomplus.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="box-header">
+            <div class="wsmobileheader clearfix ">
+                <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+                <div class="block-logo text-center">
+                    <img src="./images/milklogo.webp" alt="logo.png" width="150px" class="img-fluid" />
+                </div>
+                <ul class="block-action">
+                    <li class="block-search">
+                        <form action="#" method="GET" autocomplete="off">
+                            <div class="header-search">
+                                <div class="block-icon">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                </div>
+                                <div class="input-search">
+                                    <div class="input-group"> <input type="text" class="form-control" name="q" value="" placeholder="Tìm kiếm tại đây" aria-label="Search Hobbs" aria-describedby="basic-addon2">
+                                        <div class="input-group-append"> <button type="submit" class="btn"> <i class="fa fa-search"></i></button> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="block-user">
+                        <a href="#"><i class="far fa-user"></i></a>
+                    </li>
+
+                    <li class="wsminicart wsminicartmobile clearfix">
+                        <div class="minicart mini-cart">
+                            <div class="minicart">
+                                <a href="#"> <i class="fas fa-shopping-cart"></i>
+                                    <span id="mini-cart-count">0</span>
+                                </a>
+                                <div class="nav-cart-dropdown">
+                                    <ul class="list-unstyled container-mini-cart">
+                                        <li>
+                                            <div class="block-image-cart">
+                                                <a href="#"><img src="./images/product-7.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+                                            <div class="block-detail"> <a data-rowid="" class="remove-item mini-cart-remove-item" href="javascript:void(0)" title="Xóa"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                                                <h3><a href="#">Compete Track Tote</a></h3> <span class="price">200.000 ₫</span> <span class="quality">/ SỐ LƯỢNG: 1</span> </div>
+                                            <div class="clearfix"></div>
+                                        </li>
+                                        <div class="clearfix"></div>
+                                        <div class="total-price"> Tổng cộng <span class="price pull-right" id="mini-cart-total">200.000 ₫</span> </div>
+                                        <div class="clearfix"></div>
+                                        <div class="redirect-checkout mt-2"> <a href="#" class="btn btn-info btn-cart text-white">GIỎ HÀNG</a> <a href="#" class="btn btn-danger text-white btn-checkout">THANH TOÁN</a> </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="block-header-top">
+                <div class="container">
+                    <p>Miễn phí vận chuyển với đơn hàng trên 1000K</p>
+                </div>
+            </div>
+            <div class="block-header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="block-logo">
+                                <a href="index.html"><img src="./images/milklogo.webp" alt="logo" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                            <div class="block-menu">
+                                <div class="wsmainwp clearfix">
+                                    <nav class="wsmenu clearfix">
+                                        <ul class="wsmenu-list">
+                                            <li>
+                                                <a href="index.html">Trang Chủ</a>
+                                            </li>
+                                            <li>
+                                                <a href="product.html">Sản Phẩm </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Product View</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Giới Thiệu</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Liên Hệ</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12">
+                            <ul class="block-action">
+                                <li class="block-search">
+                                    <form action="#" method="GET" autocomplete="off">
+                                        <div class="header-search">
+                                            <div class="block-icon">
+                                                <a href="#"><i class="fas fa-search"></i></a>
+                                            </div>
+                                            <div class="input-search">
+                                                <div class="input-group"> <input type="text" class="form-control" name="q" value="" placeholder="Tìm kiếm tại đây" aria-label="Search Hobbs" aria-describedby="basic-addon2">
+                                                    <div class="input-group-append"> <button type="submit" class="btn"> <i class="fa fa-search"></i></button> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </li>
+
+                                <li class="block-user">
+                                    <a href="#"><i class="far fa-user"></i></a>
+                                </li>
+
+                                <li class="wsminicart wsminicartmobile clearfix">
+                                    <div class="minicart mini-cart">
+                                        <div class="minicart">
+                                            <a href="#"> <i class="fas fa-shopping-cart"></i>
+                                                <span id="mini-cart-count">0</span>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <article>
+        <section>
+            <div class="box-slide">
+                <div id="slider-main">
+                    <div class="slide-item">
+                        <a href="#"><img src="./images/slide011.webp" alt="slide" class="img-fluid w-100"></a>
+                    </div>
+                    <div class="slide-item">
+                        <a href="#"><img src="./images/slide021.webp" alt="slide" class="img-fluid w-100"></a>
+                    </div>
+                    <div class="slide-item">
+                        <a href="#"><img src="./images/slide03.webp" alt="slide" class="img-fluid w-100"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="box-categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="categories-item">
+                                <a href="#" class="category-link">
+                                    <div class="block-image">
+                                        <img src="./images/banner4.webp" alt="Sữa" class="img-fluid w-100">
+                                    </div>
+                                    <div class="block-content">
+                                        <p> Sản phẩm từ tự nhiên</p>
+                                        <h3>SỮA NGUYÊN CHẤT</h3>
+                                        <p class="action"><span class="button">Xem ngay</span></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                            <div class="categories-item">
+                                <a href="#" class="category-link">
+                                    <div class="block-image">
+                                        <img src="./images/banner5.webp" alt="Sữa" class="img-fluid w-100">
+                                    </div>
+                                    <div class="block-content">
+                                        <p> Sản phẩm từ tự nhiên</p>
+                                        <h3>SỮA NGUYÊN CHẤT</h3>
+                                        <p class="action"><span class="button">Xem ngay</span></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                            <div class="categories-item">
+                                <a href="#" class="category-link">
+                                    <div class="block-image">
+                                        <img src="./images/banner6.webp" alt="Sữa" class="img-fluid w-100">
+                                    </div>
+                                    <div class="block-content">
+                                        <p> Sản phẩm từ tự nhiên</p>
+                                        <h3>SỮA NGUYÊN CHẤT</h3>
+                                        <p class="action"><span class="button">Xem ngay</span></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="box-product-new">
+                <div class="container">
+                    <div class="block-header-title">
+                        <h3><a href="#">Sản Phẩm Mới</a></h3>
+                    </div>
+                    <div class="rows-products">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                <div class="products-items">
+                                    <div class="block-image">
+                                        <div class="block-sale">5%</div>
+                                        <a href="#">
+                                            <div class="block-first">
+                                                <img src="./images/sp1.webp" alt="sp1" class="img-fluid">
+                                            </div>
+                                            <div class="block-second">
+                                                <img src="./images/sp2.webp" alt="sp1" class="img-fluid">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="block-details">
+                                        <h3><a href="#">Sữa Libero quis enim</a></h3>
+                                        <p class="block-price">
+                                            <span class="block-price-new">250,000đ</span>
+                                            <span class="block-price-old">270,000₫</span>
+                                        </p>
+                                    </div>
+                                    <!-- <div class="block-addtocart">
+                                        <a href="#" class="btn btn-addtocart">Thêm Vào Giỏ Hàng</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="box-banner">
+                <div class="container">
+                    <div class="block-image">
+                        <a href="#"><img src="./images/banner1.webp" alt="banner" class="img-fluid w-100"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="box-product-sale">
+                <div class="container">
+                    <div class="block-header-title">
+                        <h3><a href="#">Sản Phẩm Khuyến Mãi</a></h3>
+                    </div>
+                    <div class="rows-products">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                <div class="products-items">
+                                    <div class="block-image">
+                                        <div class="block-sale">5%</div>
+                                        <a href="#">
+                                            <div class="block-first">
+                                                <img src="./images/sp12_compact.webp" alt="sp1" class="img-fluid">
+                                            </div>
+                                            <div class="block-second">
+                                                <img src="./images/sp13_compact.webp" alt="sp1" class="img-fluid">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="block-details">
+                                        <h3><a href="#">Sữa Libero quis enim</a></h3>
+                                        <p class="block-price">
+                                            <span class="block-price-new">250,000đ</span>
+                                            <span class="block-price-old">270,000₫</span>
+                                        </p>
+                                    </div>
+                                    <!-- <div class="block-addtocart">
+                                        <a href="#" class="btn btn-addtocart">Thêm Vào Giỏ Hàng</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="box-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="block-image">
+                                <a href="#"><img src="./images/banner2.webp" alt="banner" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="block-image">
+                                <a href="#"><img src="./images/banner3.webp" alt="banner" class="img-fluid"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <div class="box-product-home">
+                <div class="container">
+                    <div class="block-header-title">
+                        <h3><a href="#">Nước trái cây nguyên chất</a></h3>
+                    </div>
+                    <div class="rows-products">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                                <div class=" products-items ">
+                                    <div class="block-image ">
+                                        <div class="block-sale ">5%</div>
+                                        <a href="# ">
+                                            <div class="block-first ">
+                                                <img src="./images/sp12_medium.jpg " alt="sp1 " class="img-fluid ">
+                                            </div>
+                                            <div class="block-second ">
+                                                <img src="./images/sp13_medium.jpg " alt="sp1 " class="img-fluid ">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="block-details ">
+                                        <h3><a href="# ">Sữa Libero quis enim</a></h3>
+                                        <p class="block-price ">
+                                            <span class="block-price-new ">250,000đ</span>
+                                            <span class="block-price-old ">270,000₫</span>
+                                        </p>
+                                    </div>
+                                    <!-- <div class="block-addtocart ">
+                                        <a href="# " class="btn btn-addtocart ">Thêm Vào Giỏ Hàng</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="box-link-product">
+                <div class="container">
+                    <div class="block-more">
+                        <a href="#" class="btn btn-morelink">Xem thêm, Còn nhiều lắm!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="box-album">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="album-item">
+                                <a data-fancybox="images" href="./images/gallery_item_1_img.jpg"><img src="./images/gallery_item_1_img.jpg" alt="blog" class="img-fluid">
+                                    <p><i class="fab fa-instagram"></i></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="album-item">
+                                <a data-fancybox="images" href="./images/gallery_item_1_img.jpg"><img src="./images/gallery_item_1_img.jpg" alt="blog" class="img-fluid">
+                                    <p><i class="fab fa-instagram"></i></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="album-item">
+                                <a data-fancybox="images" href="./images/gallery_item_1_img.jpg"><img src="./images/gallery_item_1_img.jpg" alt="blog" class="img-fluid">
+                                    <p><i class="fab fa-instagram"></i></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="album-item">
+                                <a data-fancybox="images" href="./images/gallery_item_1_img.jpg"><img src="./images/gallery_item_1_img.jpg" alt="blog" class="img-fluid">
+                                    <p><i class="fab fa-instagram"></i></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="album-item">
+                                <a data-fancybox="images" href="./images/gallery_item_1_img.jpg"><img src="./images/gallery_item_1_img.jpg" alt="blog" class="img-fluid">
+                                    <p><i class="fab fa-instagram"></i></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="album-item">
+                                <a data-fancybox="images" href="./images/gallery_item_1_img.jpg"><img src="./images/gallery_item_1_img.jpg" alt="blog" class="img-fluid">
+                                    <p><i class="fab fa-instagram"></i></p>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <footer>
+        <div class="box-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="block-title">
+                            <h3><a href="#">Về Milk Farm</a></h3>
+                        </div>
+                        <div class="block-content">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-item">
+                                        <p>Chúng tôi không chỉ mang đến một văn hoá thời trang thế giới mà còn tạo nên một nền tảng thời trang giá trị, dịch vụ khách hàng tận tâm, có trách nhiệm, để Việt Nam là điểm đến sành điệu cho những người yêu thời
+                                            trang.
+                                        </p>
+                                        <div class="block-logo-footer">
+                                            <a href="#"><img src="./images/logo-bct-min.webp" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-item">
+                                        <ul>
+                                            <li class="contact-1"><b>Địa chỉ:</b> Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.</li>
+                                            <li class="contact-2"><b>Điện thoại:</b> 1900.636.099</li>
+                                            <li class="contact-3"><b>Fax:</b> 1900.636.099</li>
+                                            <li class="contact-4"><b>Email:</b> hi@haravan.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="block-title">
+                            <h3><a href="#">HỖ TRỢ KHÁCH HÀNG</a></h3>
+                        </div>
+                        <div class="block-content">
+                            <ul>
+
+                                <li>
+                                    <a href="# " title="Tìm kiếm ">Tìm kiếm</a>
+                                </li>
+
+                                <li>
+                                    <a href="# " title="Giới thiệu ">Giới thiệu</a>
+                                </li>
+
+                                <li>
+                                    <a href="# " title="Chính sách đổi trả ">Chính sách đổi trả</a>
+                                </li>
+
+                                <li>
+                                    <a href="# " title="Chính sách bảo mật ">Chính sách bảo mật</a>
+                                </li>
+
+                                <li>
+                                    <a href="# " title="Điều khoản dịch vụ ">Điều khoản dịch vụ</a>
+                                </li>
+
+                                <li>
+                                    <a href="# " title=" Liên hệ ">Liên hệ</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
+                        <div class="block-title ">
+                            <h3><a href="# ">FANPAGE FACEBOOK</a></h3>
+                        </div>
+                        <div class="block-content ">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthietkewebuytin.vn%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId
+                                    " width="100% " height="214 " style="border:none;overflow:hidden " scrolling="no " frameborder="0 " allowTransparency="true " allow="encrypted-media "></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery-3.3.1.slim.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/webslidemenu.js "></script>
+    <script src="js/slick.min.js "></script>
+    <script src="js/isotope.pkgd.min.js "></script>
+    <script src="js/isotope.pkgd.js "></script>
+    <script src="js/isotope-docs.min.js "></script>
+    <script src="js/jquery.fancybox.min.js "></script>
+    <script src="js/site.js "></script>
+
+</body>
+
+</html>
